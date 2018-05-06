@@ -4,7 +4,8 @@
   "description": "a quick attempt at a social media site",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Iakuro-wc/social-project/issues"
   },
-  "homepage": "https://github.com/Iakuro-wc/social-project#readme"
+  "homepage": "https://github.com/Iakuro-wc/social-project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
 }
