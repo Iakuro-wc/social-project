@@ -1,3 +1,18 @@
 <h1> Register </h1>
 <h2> Welcome to the register page </h2>
 
+<form action="/register" method="post"> 
+	<label for="firstname"></label>
+	<input type="text" name="firstname" id="firstname" placeholder="enter first name">
+	<label for="lastname"></label>
+	<input type="text" name="lastname" id="lastname" placeholder="enter last name">
+	<label for="email"></label>
+	<input type="email" name="email" id="email" placeholder="enter email">
+	<label for="password"></label>
+	<input type="password" name="password" id="password" placeholder="enter password">
+	<select id="country" name="country">
+		<option>Select Country</option>
+		<option value="US" name="country">United States</option>
+	</select>
+	<input type="submit">
+</form>
